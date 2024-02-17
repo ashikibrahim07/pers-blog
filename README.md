@@ -11,7 +11,10 @@ Follow these steps to set up the project on your local machine:
 Before you begin, make sure you have the following installed on your system:
 
 - [Node.js](https://nodejs.org/) (v14 or later)
+- [Express.js](https://expressjs.com/) (v4 or later)
+- [EJS](https://ejs.co/) (v3 or later)
 - [PostgreSQL](https://www.postgresql.org/) (v12 or later)
+
 
 ### Installation
 

@@ -1,0 +1,82 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ashik Ibrahim S" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>About Me</title>
+    <link rel="stylesheet" href="../public/styles.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #e4e9fd;
+        font-family: "Playfair Display", serif;
+      }
+      .about-me {
+        padding-top: 100px;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 0;
+      }
+      .details {
+        background-color: #003049;
+        border-radius: 10px;
+        padding: 25px;
+        box-shadow: 0 2px 5px black;
+      }
+      .details > h3 {
+        text-align: center;
+        color: #003049;
+        background-color: #e4e9fd;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .details > p {
+        padding: 10px;
+        font-size: large;
+        color: #fcfaf9;
+      }
+      @media (max-width: 990px) {
+        .about-me {
+          padding-top: 230px !important;
+        }
+      }
+    </style>
+    <header class="about-me">
+      <h2>About Me</h2>
+    </header>
+
+    <main class="container my-5">
+      <section class="details">
+        <h3>Welcome to My Personal Blog!</h3>
+        <p>
+          Hi there! I'm Ashik Ibrahim S, and this is my personal blog where I
+          share my thoughts, experiences, and insights on various topics that
+          interest me.
+        </p>
+        <p>
+          I built this blog using a combination of Node.js, Express.js, EJS,
+          CSS, and PostgreSQL. It has been an exciting journey exploring the
+          world of web development and creating a platform to express myself.
+        </p>
+        <p>
+          Whether it's technology, travel, lifestyle, or anything in between,
+          you'll find a mix of content that reflects my passions and interests.
+          I hope you enjoy reading my posts as much as I enjoy creating them!
+        </p>
+        <p>
+          Feel free to explore the blog, leave comments, and reach out to me if
+          you have any questions or just want to connect. I'm always happy to
+          engage with my readers and fellow enthusiasts.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
+<%- include("footer.ejs") %>

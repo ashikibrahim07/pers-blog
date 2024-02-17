@@ -1,0 +1,103 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ashik Ibrahim S" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="../public/styles.css" />
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #e4e9fd;
+        font-family: "Playfair Display", serif;
+      }
+
+      .form-control {
+        background-color: #003049;
+        box-shadow: 0 1px 5px black;
+        white-space: pre-wrap;
+      }
+
+      .container {
+        padding-top: 100px;
+      }
+
+      .form-group {
+        margin: 0 auto;
+        width: 80%;
+        color: #fdf0d5;
+      }
+
+      .form-group input {
+        color: #fdf0d5;
+      }
+
+      .form-group #title {
+        height: 50px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .btn-success {
+        margin-top: 25px;
+        border: 1px solid #003049;
+      }
+
+      .form-group input::placeholder,
+      .form-group textarea::placeholder {
+        color: #fdf0d5;
+      }
+
+      footer {
+        padding-top: 0px;
+      }
+      @media (max-width: 990px) {
+        .container {
+          padding-top: 200px !important;
+        }
+      }
+    </style>
+    <main class="container text-center">
+      <h1 class="mt-4">Create a New Post</h1>
+
+      <form action="/create" method="post">
+        <div class="form-group">
+          <label for="title"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            name="title"
+            placeholder="Title"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="content"></label>
+          <textarea
+            placeholder="Content"
+            class="form-control"
+            id="content"
+            name="content"
+            rows="5"
+            required
+          ></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">Create Post</button>
+      </form>
+    </main>
+
+    <footer><%- include("footer.ejs") %></footer>
+    <script></script>
+  </body>
+</html>

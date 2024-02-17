@@ -1,0 +1,103 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ashik Ibrahim S" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Home</title>
+    <style>
+      body {
+        background-color: #e4e9fd;
+        font-family: "Playfair Display", serif;
+      }
+      .card-title {
+        background-color: #e4e9fd;
+        padding: 10px;
+        border-radius: 10px;
+      }
+      .card-text {
+        color: #fdf0d5;
+        text-align: justify;
+        white-space: pre-wrap;
+      }
+      .card-text-time {
+        color: #fdf0d5;
+        background-color: #003049;
+        border-radius: 10px;
+        padding: 10px;
+        box-shadow: 0 2px 5px black;
+      }
+      .card {
+        border-radius: 10px;
+        padding: 10px;
+        border: none;
+        box-shadow: 0 2px 5px black;
+        background-color: #003049;
+      }
+      .btn-info {
+        background-color: #7eb2dd;
+        color: #003049;
+      }
+      .btn-danger {
+        background-color: #f93943;
+        color: #fcfaf9;
+      }
+      .btn {
+        margin-left: 10px;
+      }
+      .btn-success {
+        background-color: #38b000;
+        height: 50px;
+        padding: 15px;
+        padding-top: 10px;
+        margin: 15px;
+        border: 1px solid #003049;
+      }
+    </style>
+    <% function formatDate(timestamp) { const date = new Date(timestamp); const
+    year = date.getFullYear(); const month = String(date.getMonth() +
+    1).padStart(2, "0"); const day = String(date.getDate()).padStart(2, "0");
+    const hours = String(date.getHours()).padStart(2, "0"); const minutes =
+    String(date.getMinutes()).padStart(2, "0"); const formattedDate =
+    `${day}/${month}/${year} ${hours}:${minutes}`; return formattedDate; } %>
+  </head>
+
+  <body>
+    <div class="px-4 py-5 my-5 text-center container">
+      <a href="/create" class="btn btn-success">Create New Post</a>
+      <h1 class="display-5 fw-bold text-body-emphasis">Latest Posts</h1>
+
+      <% posts.forEach(post => { %>
+      <div class="col-lg-6 mx-auto">
+        <div class="card mb-4">
+          <div class="card-body">
+            <h2 class="card-title fw-bold mb-4"><%= post.title %></h2>
+            <p class="card-text lead mb-4"><%= post.content %></p>
+
+            <a href="/edit/<%= post.id %>">
+              <button type="button" class="btn btn-info">Edit</button>
+            </a>
+            <a
+              href="/delete/<%= post.id %>"
+              onclick="return confirm('Are you sure you want to delete this post?');"
+            >
+              <button type="button" class="btn btn-danger">Delete</button>
+            </a>
+          </div>
+        </div>
+        <p class="card-text-time lead mb-4">
+          Posted At: <%= formatDate(post.posted_at) %>
+        </p>
+      </div>
+      <% }) %>
+      <a href="/create" class="btn btn-success">Create New Post</a>
+    </div>
+    <footer><%- include("footer.ejs") %></footer>
+  </body>
+</html>

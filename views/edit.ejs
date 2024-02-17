@@ -1,0 +1,72 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ashik Ibrahim S" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>Edit Post</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #e4e9fd;
+      }
+      h1 {
+        text-align: center;
+        padding-top: 100px;
+      }
+      .form-control {
+        background-color: #003049;
+        padding: 10px;
+        color: #fdf0d5;
+      }
+      .btn-primary {
+        background-color: #22aaa1;
+      }
+      footer {
+        padding-top: 130px;
+      }
+    </style>
+    <main class="container">
+      <h1 class="mt-4">Edit Post</h1>
+
+      <form action="/edit/<%= post.id %>" method="post">
+        <div class="form-group">
+          <label for="title"></label>
+          <input
+            type="text"
+            class="form-control"
+            id="title"
+            name="title"
+            value="<%= post.title %>"
+            required
+          />
+        </div>
+
+        <div class="form-group">
+          <label for="content"> </label>
+          <textarea
+            class="form-control"
+            id="content"
+            name="content"
+            rows="5"
+            required
+          >
+<%= post.content %></textarea
+          >
+        </div>
+        <div class="text-center">
+          <button type="submit" class="btn btn-primary">Save Changes</button>
+        </div>
+      </form>
+    </main>
+
+    <footer><%- include('footer.ejs'); %></footer>
+  </body>
+</html>

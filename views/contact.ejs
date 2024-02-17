@@ -1,0 +1,107 @@
+<%- include("header.ejs") %>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Ashik Ibrahim S" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <title>Contact</title>
+  </head>
+  <body>
+    <style>
+      body {
+        background-color: #e4e9fd;
+        font-family: "Playfair Display", serif;
+      }
+      .form-signin {
+        padding-top: 170px;
+        padding-bottom: 60px;
+      }
+      h1 {
+        text-align: center;
+      }
+      .form-floating {
+        margin: 0 auto;
+      }
+      .form-control {
+        background-color: #003049;
+        padding: 10px;
+        box-shadow: 0 2px 5px black;
+      }
+      .form-floating ::placeholder {
+        color: #fdf0d5;
+      }
+      #floatingName,
+      #floatingInput {
+        height: 50px;
+      }
+      #floatingTextarea {
+        height: 150px;
+        width: 100%;
+      }
+
+      .btn-primary {
+        background-color: #7eb2dd;
+        border: 1px solid #003049;
+        color: #003049;
+      }
+      @media (max-width: 990px) {
+        .form-signin {
+          padding-top: 230px !important;
+        }
+      }
+    </style>
+    <% function formatDate(timestamp) { const date = new Date(timestamp); const
+    year = date.getFullYear(); const month = String(date.getMonth() +
+    1).padStart(2, "0"); const day = String(date.getDate()).padStart(2, "0");
+    const hours = String(date.getHours()).padStart(2, "0"); const minutes =
+    String(date.getMinutes()).padStart(2, "0"); const formattedDate =
+    `${day}/${month}/${year} ${hours}:${minutes}`; return formattedDate; } %>
+
+    <main class="form-signin m-auto" style="max-width: 400px">
+      <form action="/contact" method="post">
+        <h1 class="h1 mb-3 fw-normal">Contact</h1>
+
+        <div class="form-floating">
+          <input
+            name="name"
+            type="text"
+            class="form-control"
+            id="floatingName"
+            placeholder="Name"
+          />
+        </div>
+
+        <div class="form-floating mt-3">
+          <input
+            name="email"
+            type="email"
+            class="form-control"
+            id="floatingInput"
+            placeholder="name@example.com"
+          />
+        </div>
+
+        <div class="form-floating mt-3">
+          <textarea
+            name="message"
+            class="form-control"
+            placeholder="Leave a message here"
+            id="floatingTextarea"
+          ></textarea>
+        </div>
+
+        <div class="text-center">
+          <button class="btn btn-primary w-auto mt-3" type="submit">
+            Send
+          </button>
+        </div>
+      </form>
+    </main>
+  </body>
+</html>
+<%- include("footer.ejs") %>

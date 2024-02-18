@@ -1,6 +1,6 @@
 # PersBlog
 
-Welcome to my personal blog repository! This repository contains the source code for my personal blog, which I built using Node.js, Express.js, EJS, and PostgreSQL. As one of the Capstone Projects in my Udemy course, this blog represents a culmination of my learning journey.
+Welcome to my personal blog repository! This repository contains the source code for my personal blog, which I built using Node.js, Express.js, EJS, Bootstrap and PostgreSQL. As one of the Capstone Projects in my Udemy course, this blog represents a culmination of my learning journey.
 
 While the application currently uses a local PostgreSQL database, I have plans to deploy it to a remote database for improved scalability and accessibility. By migrating to a remote database, I aim to ensure that the blog remains responsive and available to users regardless of geographical location or traffic volume.
 

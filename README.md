@@ -6,6 +6,8 @@ While the application currently uses a local PostgreSQL database, I have plans t
 
 I'm excited to continue developing and refining this project, and I welcome contributions and feedback from the community. Together, let's create a dynamic and engaging platform for sharing ideas and experiences.
 
+![Snapshot of PersBlog](https://example.com/path/to/your/snapshot/image.jpg)
+
 ## Getting Started
 
 Follow these steps to set up the project on your local machine:

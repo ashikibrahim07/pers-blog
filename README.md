@@ -69,5 +69,5 @@ This project is licensed under the MIT License.
 
 ## Video
 
-[Video](https://github.com/ashikibrahim07/pers-blog/blob/main/PersBlog%20Screen%20Record.mkv)
+[Video Demo](https://youtu.be/cs0L2dWsQkQ)
 

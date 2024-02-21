@@ -61,6 +61,11 @@ By default, the application is configured to use a local PostgreSQL database. Ho
 ### Contributing
 Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
+# Video Demo
+
+You can view the video demo of the project [here](https://www.youtube.com/watch?v=cs0L2dWsQkQ).
+
+
 ### Author
 Ashik Ibrahim S
 

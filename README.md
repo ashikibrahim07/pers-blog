@@ -93,7 +93,5 @@ Contributions are welcome! If you'd like to contribute to this project, please f
 ### License
 This project is licensed under the MIT License.
 
-## Video
 
-[Video Demo](https://youtu.be/cs0L2dWsQkQ)
 

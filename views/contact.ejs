@@ -49,6 +49,9 @@
         border: 1px solid #003049;
         color: #003049;
       }
+      .btn-primary:active {
+        transform: scale(0.9);
+      }
       @media (max-width: 990px) {
         .form-signin {
           padding-top: 230px !important;
@@ -73,6 +76,7 @@
             class="form-control"
             id="floatingName"
             placeholder="Name"
+            required
           />
         </div>
 
@@ -83,6 +87,7 @@
             class="form-control"
             id="floatingInput"
             placeholder="name@example.com"
+            required
           />
         </div>
 
@@ -92,6 +97,7 @@
             class="form-control"
             placeholder="Leave a message here"
             id="floatingTextarea"
+            required
           ></textarea>
         </div>
 

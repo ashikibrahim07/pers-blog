@@ -68,11 +68,11 @@ You can view the video demo of the project [here](https://www.youtube.com/watch?
 ## Home page
 ![Home page](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(374).png)
 
-## Newsfeed
-![Newsfeed](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(375).png)
+## Create Post Section
+![Create Post](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(375).png)
 
-## Friend Requests
-![Friend Requests](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(177).png "Friend Requests")
+## About Me
+![About me](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(376).png)
 
 ## Messenger
 ![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png "Messenger")

@@ -66,7 +66,7 @@ You can view the video demo of the project [here](https://www.youtube.com/watch?
 # Snapshots
 
 ## Home page
-![Home page](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(374).png)
+![Home page](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(378).png)
 
 ## Create Post Section
 ![Create Post](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(375).png)
@@ -74,14 +74,8 @@ You can view the video demo of the project [here](https://www.youtube.com/watch?
 ## About Me
 ![About me](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(376).png)
 
-## Messenger
-![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png "Messenger")
-
-## Notifications
-![Notifications](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(179).png "Notifications")
-
-## Marketplace
-![Marketplace](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(181).png "Marketplace")
+## Contact
+![Contact](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(377).png)
 
 ### Author
 Ashik Ibrahim S

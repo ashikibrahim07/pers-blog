@@ -58,16 +58,37 @@ The application should now be running at http://localhost:4000.
 ### Database Setup
 By default, the application is configured to use a local PostgreSQL database. However, if you plan to deploy the application to a remote server, you'll need to update the database connection settings in `app.js` to point to your remote database instance.
 
-### Contributing
-Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
+
 
 # Video Demo
 
 You can view the video demo of the project [here](https://www.youtube.com/watch?v=cs0L2dWsQkQ).
 
+# Snapshots
+
+## Loading page
+![Loading page](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(176).png "Loading page")
+
+## Newsfeed
+![Newsfeed](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(175).png "Newsfeed")
+
+## Friend Requests
+![Friend Requests](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(177).png "Friend Requests")
+
+## Messenger
+![Messenger](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(178).png "Messenger")
+
+## Notifications
+![Notifications](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(179).png "Notifications")
+
+## Marketplace
+![Marketplace](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(181).png "Marketplace")
 
 ### Author
 Ashik Ibrahim S
+
+### Contributing
+Contributions are welcome! If you'd like to contribute to this project, please fork the repository, make your changes, and submit a pull request.
 
 ### License
 This project is licensed under the MIT License.

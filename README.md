@@ -6,7 +6,6 @@ While the application currently uses a local PostgreSQL database, I have plans t
 
 I'm excited to continue developing and refining this project, and I welcome contributions and feedback from the community. Together, let's create a dynamic and engaging platform for sharing ideas and experiences.
 
-![Snapshot of PersBlog](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(184).png)
 
 ## Getting Started
 
@@ -66,8 +65,8 @@ You can view the video demo of the project [here](https://www.youtube.com/watch?
 
 # Snapshots
 
-## Loading page
-![Loading page](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(176).png "Loading page")
+## Home page
+![Home page](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(374).png)
 
 ## Newsfeed
 ![Newsfeed](https://github.com/ashikibrahim07/fb-lite-clone-using-html-css/blob/main/Screenshot%20(175).png "Newsfeed")

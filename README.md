@@ -6,7 +6,24 @@ While the application currently uses a local PostgreSQL database, I have plans t
 
 I'm excited to continue developing and refining this project, and I welcome contributions and feedback from the community. Together, let's create a dynamic and engaging platform for sharing ideas and experiences.
 
+## Table of Contents
 
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+  - [Running the Application](#running-the-application)
+  - [Usage](#usage)
+  - [Database Setup](#database-setup)
+- [Video Demo](#video-demo)
+- [Snapshots](#snapshots)
+  - [Home page](#home-page)
+  - [Create Post Section](#create-post-section)
+  - [About Me](#about-me)
+  - [Contact](#contact)
+- [Author](#author)
+- [Contributing](#contributing)
+- [License](#license)
+  
 ## Getting Started
 
 Follow these steps to set up the project on your local machine:

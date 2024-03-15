@@ -80,7 +80,7 @@ By default, the application is configured to use a local PostgreSQL database. Ho
 
 # Video Demo
 
-You can view the video demo of the project [here](https://www.youtube.com/watch?v=cs0L2dWsQkQ).
+You can view the video demo of the personal blog [here](https://www.youtube.com/watch?v=cs0L2dWsQkQ).
 
 # Snapshots
 

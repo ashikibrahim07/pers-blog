@@ -90,10 +90,10 @@ You can view the video demo of the personal blog [here](https://www.youtube.com/
 ## Create Post Section
 ![Create Post](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(375).png)
 
-## About Me
+## About Me Section 
 ![About me](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(376).png)
 
-## Contact
+## Contact Page
 ![Contact](https://github.com/ashikibrahim07/pers-blog/blob/main/Screenshot%20(377).png)
 
 ### Author
